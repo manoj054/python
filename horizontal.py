@@ -1,4 +1,4 @@
-n = input("Enter a number: ")
+n = int(input("Enter a number: "))
 
-for digit in n:
-    print(digit, end=" ")
+for i in range(1, n):
+    print(i, end=" ")
